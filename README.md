@@ -9,3 +9,4 @@ $ docker-compose build
 ```
 $ docker-compose up
 ```
+Wait for a while and access [localhost:10009](http://localhost:10009)
