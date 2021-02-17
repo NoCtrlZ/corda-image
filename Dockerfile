@@ -12,6 +12,8 @@ RUN cd cordapp-example &&\
     ./gradlew deployNodes
 
 EXPOSE 10009
+EXPOSE 10012
+EXPOSE 10015
 
 ENTRYPOINT ./cordapp-example/kotlin-source/build/nodes/runnodes &&\
            sleep 5000
