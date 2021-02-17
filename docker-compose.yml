@@ -1,0 +1,9 @@
+version: '3'
+services:
+  corda:
+    build: .
+    container_name: corda
+    tty: true
+    stdin_open: true
+    ports:
+      - "10009:10009"

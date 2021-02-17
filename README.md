@@ -1,5 +1,11 @@
 # Corda Image
+
 ## Build
 ```
-sh scrips/build.sh
+$ docker-compose build
+```
+
+## Start
+```
+$ docker-compose up
 ```
